@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Nail Your RDV by Autofill <3</title>
+    <script src="./jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="./options.js" type="text/javascript"></script>
+  </head>
+  <style type="text/css">
+    body{
+      margin: auto;
+      width: 800px 
+    }
+    .url{
+      width: 300px;
+    }
+    .query{
+      width: 200px;
+    }
+    .value{
+      width: 100px;
+    }
+  </style>
+<body id="options-page">
+  <h1>Nail Your RDV By Autofilling Form 🤟</h1>
+  <br><hr><br>
+  <h2>⚠️ Caution</h2>
+  <p>You data will <b>be saved in local</b> and <b>won't be uploaded to the cloud</b>. However, you need to know that all the information <b>won't be encrypted</b>, so once you get your appointment, please delete those data by clicking on <b>"Clean" button</b> to clear the local storage.</p>
+  <p>Source Code: <a href="http://benbenbang.github.io/Autofill-Renouvellement-TDS/">http://benbenbang.github.io/Autofill-Renouvellement-TDS</a></p>
+  <br><hr><br>
+  <table>
+    <tbody>
+      <select>
+        <option type="text" name="url-option-1" class="url" value="https://www.ppoletrangers.interieur.gouv.fr/*">Paris</option>
+      </select>
+      <br>
+      <tr class="template">
+        <td><input type="text" name="" value="" style="display: none;" class="url" /></td>
+        <td><input type="text" name="" value="" style="display: none;" class="query" /></td>
+        <td><input type="text" name="" value="" style="display: none;" class="value" /></td>
+        <td><a href="#" class="remove">×</a></td>
+      </tr>
+      <tr class="" style="" id="row-1">
+        <td><input type="text" name="url-1" class="url" style="display: none;" value="https://www.ppoletrangers.interieur.gouv.fr/*"></td>
+        <td><input type="text" name="query-1" value="input[name=nom]" class="query" style="display: none;"></td>
+        <td><input type="text" name="value-1" value="" class="value" style="display: none;"></td>
+      </tr>
+      <tr class="" style="" id="row-2">
+        <td><input type="text" name="url-2" class="url" style="display: none;" value="https://www.ppoletrangers.interieur.gouv.fr/*"></td>
+        <td><input type="text" name="query-2" value="input[name=nom]" class="query" style="display: none;"></td>
+        <td><label>Nom: </label> <input type="text" name="value-2" value="" class="value"></td>
+      </tr>
+      <tr class="" style="" id="row-3">
+        <td><input type="text" name="url-3" class="url" style="display: none;" value="https://www.ppoletrangers.interieur.gouv.fr/*"></td>
+        <td><input type="text" name="query-3" value="input[name=prenom]" class="query" style="display: none;"></td>
+        <td><label>Prénom: </label> <input type="text" name="value-3" value="" class="value"></td>
+      </tr>
+      <tr class="" style="" id="row-4">
+        <td><input type="text" name="url-4" class="url" style="display: none;" value="https://www.ppoletrangers.interieur.gouv.fr/*"></td>
+        <td><input type="text" name="query-4" value="input[name=agdref]" class="query" style="display: none;"></td>
+        <td><label>N° de votre titre de séjour: </label> <input type="text" name="value-4" value="" class="value"></td>
+      </tr>
+      <tr class="" style="" id="row-5">
+        <td><input type="text" name="url-5" class="url" style="display: none;" value="https://www.ppoletrangers.interieur.gouv.fr/*"></td>
+        <td><input type="text" name="query-5" value="input[name=naissance]" class="query" style="display: none;"></td>
+        <td><label>Date de naissance: </label> <input type="text" name="value-5" value="" class="value"></td>
+      </tr>
+      <tr class="" style="" id="row-6">
+        <td><input type="text" name="url-6" class="url" style="display: none;" value="https://www.ppoletrangers.interieur.gouv.fr/*"></td>
+        <td><input type="text" name="query-6" value="input[name=validite]" class="query" style="display: none;"></td>
+        <td><label>Date d'expiration du titre de séjour: </label> <input type="text" name="value-6" value="" class="value"></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>

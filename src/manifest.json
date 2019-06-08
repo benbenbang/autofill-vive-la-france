@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Prefecture Autofill Form",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    "description": "MDR! Donne moi un rendez-vous",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+                "https://www.ppoletrangers.interieur.gouv.fr/*"
+        ],
+        "js": ["jquery-1.8.2.min.js", "run.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "options_page": "options.html",
+    "background": { "page": "background.html" }
+}
