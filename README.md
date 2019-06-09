@@ -3,7 +3,7 @@ Autofill forms to Nail your RDV for TDS 🤟🏻
 
 This chrome extension fills out forms for your RDV automatically.
 
-You only need to put values to their place, then this extension fills out a value by the query
+You only need to put values to their place, and then this extension fills out a value by the query
 
 
 Usage
