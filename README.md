@@ -52,7 +52,7 @@ Click on the extension icon ➜ select `Options` ➜ Type the information ➜ Na
 Change Log
 ----------------
 
-- 2019-06-09 beta pre-release (version code: 1.0)
+- 2019-06-10 v1.0 release (version code: 1.0)
 
 
 Next Steps:
