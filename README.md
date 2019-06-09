@@ -28,7 +28,7 @@ Usage
 
 #### 🖱 Step One.
 
-**Download** the source code, you can either [click here](https://github.com/benbenbang/nail-rdv-tds-la-france.git), or download it by clicking on the green `Clone or Download` button
+**Download** the source code, you can either [click here](https://github.com/benbenbang/nail-rdv-tds-la-france.git) or download it by clicking on the green `Clone or Download` button
 
 
 #### 🖱 Step Two.
