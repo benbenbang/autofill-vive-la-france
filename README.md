@@ -26,26 +26,26 @@ Usage
 
 ### How to install this extension
 
-#### Step One.
+#### 🖱 Step One.
 
-🖱 **Download** the source code, you can either [click here](https://github.com/benbenbang/nail-rdv-tds-la-france.git), or download it by clicking on the green `Clone or Download` button
+**Download** the source code, you can either [click here](https://github.com/benbenbang/nail-rdv-tds-la-france.git), or download it by clicking on the green `Clone or Download` button
 
 
-####  Step Two.
+#### 🖱 Step Two.
 
-🖱 Open Your Chrome ➜ Go to the [extensions page](chrome://extensions) ➜ Turn on `Developer Mode` on the upper right corn ➜ Click on `Load unpacked`
+Open Your Chrome ➜ Go to the [extensions page](chrome://extensions) ➜ Turn on `Developer Mode` on the upper right corn ➜ Click on `Load unpacked`
 
 ![instruction-b](./assets/instruction-b.png)
 
 
-#### Step Three.
+#### 🖱 Step Three.
 
-🖱 Wait for the dialogue pop up ➜ Open the folder where the source code you just downloaded ➜ Go to the `src` directory ➜ **Click** on `select`
+Wait for the dialogue pop up ➜ Open the folder where the source code you just downloaded ➜ Go to the `src` directory ➜ **Click** on `select`
 
 
-#### Step Four.
+#### 🖱 Step Four.
 
-🖱 Click on the extension icon ➜ select `Options` ➜ Type the information ➜ Navigate to the RDV page of your préfecture ➜ Et Voila🖖🏻
+Click on the extension icon ➜ select `Options` ➜ Type the information ➜ Navigate to the RDV page of your préfecture ➜ Et Voila🖖🏻
 
 
 
