@@ -1,6 +1,7 @@
 jQuery(function($){
   var page = $('#options-page'); 
-  var newQuery = page.find('.new');
+  var save = page.find('.save')
+  var remove = page.find('.clean')
   var tpl = page.find('.template');
   tpl.hide();
   var id = 0;
@@ -18,18 +19,21 @@ jQuery(function($){
     c.find('.query').attr('name', 'query-' + id);
     c.find('.value').attr('name', 'value-' + id);
 
-    c.find('.remove').click(function(){
-      c.remove();
-      var id = c.attr('id').replace(/row-/, '');
-      localStorage.removeItem('url-' + id);
-      localStorage.removeItem('query-' + id);
-      localStorage.removeItem('value-' + id);
-    });
     return c;
   }
-  newQuery.click(function(){
-    createQuery(++id);
-    return false;
+
+  remove.click(function(){
+    if (confirm('Are you sure you want to clean all the data?')) {
+        for (var k in localStorage){
+          if (k.match(/^(query|url|value)-(\d+)/)){
+            var id = RegExp.$2;
+            localStorage.removeItem('url-' + id);
+            localStorage.removeItem('query-' + id);
+            localStorage.removeItem('value-' + id);
+          }
+        };
+        location.reload();
+    }
   });
   
   page.find('input[type=checkbox]').each(function(){
@@ -71,4 +75,5 @@ jQuery(function($){
       c.find('.' + type).val(localStorage[k]);
     }
   };
+
 });
